@@ -27,7 +27,7 @@ class HelloNonViewHelloNon extends JViewLegacy
 	function display($tpl = null)
 	{
 		// Assign data to the view
-		$this->msg = 'Hello Non';
+		$this->msg = 'You stand in frontend at Non Toolkit';
  
 		// Display the view
 		parent::display($tpl);
