@@ -27,11 +27,11 @@ class HelloNonModelHelloNon extends JModelItem
          *
 	 * @return  string  The message to be displayed to the user
 	 */
-	public function getMsg()
+	public function getNonMsg()
 	{
 		if (!isset($this->message))
 		{
-			$this->message = 'Hello Non Model!';
+			$this->message = 'Hello Non Model From NonMsg Method';
 		}
  
 		return $this->message;
