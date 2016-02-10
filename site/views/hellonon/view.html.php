@@ -27,6 +27,7 @@ class HelloNonViewHelloNon extends JViewLegacy
 	function display($tpl = null)
 	{
 		// Assign data to the view
+		// This->get คือไปถามตัว Modle ว่ามี Mothod getNonMsg มั้ย แล้วกำหนดค่าให้
 		$this->msg = $this->get('NonMsg');
 		
 		// Check for errors.
