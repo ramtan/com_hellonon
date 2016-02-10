@@ -31,7 +31,22 @@ class HelloNonModelHelloNon extends JModelItem
 	{
 		if (!isset($this->message))
 		{
-			$this->message = 'Hello Non Model From NonMsg Method';
+			//ประกาศ getApp input เพื่อจะใช้ Method input ดึงค่า parameter
+			$jinput = JFactory::getApplication()->input;
+
+			//กำหนดดึงจาก input name='id' มี 1 ตัวและ มีค่าเป็น int
+			$id = $jinput->get('id', 1 ,'INT');
+
+			switch ($id)
+			{
+				case 2:
+					$this->message = 'Good bye World!';
+					break;
+				default:
+				case 1:
+					$this->message = 'Hello World!';
+					break;
+			}
 		}
  
 		return $this->message;
