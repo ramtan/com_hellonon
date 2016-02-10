@@ -3,14 +3,14 @@
  
 	<name>Hello Non!</name>
 	<!-- The following elements are optional and free of formatting constraints -->
-	<creationDate>December 2013</creationDate>
+	<creationDate>Febuary 2016</creationDate>
 	<author>Non</author>
 	<authorEmail>john.doe@example.org</authorEmail>
 	<authorUrl>http://www.example.org</authorUrl>
 	<copyright>Copyright Info</copyright>
 	<license>License Info</license>
 	<!--  The version string is recorded in the components table -->
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>Description of the Hello Non component ...</description>
  
