@@ -3,17 +3,15 @@
 	<layout title="COM_HELLONON_HELLONON_VIEW_DEFAULT_TITLE">
 		<message>COM_HELLONON_HELLONON_VIEW_DEFAULT_DESC</message>
 	</layout>
-	<fields name="request">
+	<fields name="request" addfieldpath="/administrator/components/com_hellonon/models/fields">
 		<fieldset name="request">
 			<field
 					name="id"
-					type="list"
+					type="hellonon"
 					label="COM_HELLONON_HELLONON_FIELD_GREETING_LABEL"
 					description="COM_HELLONON_HELLONON_FIELD_GREETING_DESC"
-					default="1">
-                                <option value="1">Hello Non!</option>
-                                <option value="2">Good bye Non!</option>
-                        </field>
+					>
+			</field>
 		</fieldset>
 	</fields>
 </metadata>
